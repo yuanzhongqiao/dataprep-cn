@@ -1,118 +1,120 @@
-<div align="center"><img width="100%" src="https://github.com/sfu-db/dataprep/raw/develop/assets/logo.png"/></div>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/sfu-db/dataprep/raw/develop/assets/logo.png"><img width="100%" src="https://github.com/sfu-db/dataprep/raw/develop/assets/logo.png" style="max-width: 100%;"></a></div>
+<hr>
+<p align="center" dir="auto">
+  <a href="/sfu-db/dataprep/blob/develop/LICENSE"><img src="https://camo.githubusercontent.com/2f0a6033c20501f3201f812e69cbb7f59051a8a5c0453d5d504ae652d10be56c/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f64617461707265703f7374796c653d666c61742d737175617265" data-canonical-src="https://img.shields.io/pypi/l/dataprep?style=flat-square" style="max-width: 100%;"></a>
+  <a href="https://sfu-db.github.io/dataprep/" rel="nofollow"><img src="https://camo.githubusercontent.com/a8accfebd6fe605eea3a2c5ccdf4bde2c0ccdc302aa90daa7a6899fdc0cab3cf/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f64796e616d69632f6a736f6e3f636f6c6f723d626c7565266c6162656c3d646f6373267072656669783d762671756572793d2532342e696e666f2e76657273696f6e2675726c3d6874747073253341253246253246707970692e6f72672532467079706925324664617461707265702532466a736f6e267374796c653d666c61742d737175617265" data-canonical-src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=docs&amp;prefix=v&amp;query=%24.info.version&amp;url=https%3A%2F%2Fpypi.org%2Fpypi%2Fdataprep%2Fjson&amp;style=flat-square" style="max-width: 100%;"></a>
+  <a href="https://pypi.org/project/dataprep/" rel="nofollow"><img src="https://camo.githubusercontent.com/5a3bf7607933a298f78f42396a7ea4f0eafb905ca20c91fb6e9db0a728b3dac5/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f64617461707265703f7374796c653d666c61742d737175617265" data-canonical-src="https://img.shields.io/pypi/pyversions/dataprep?style=flat-square" style="max-width: 100%;"></a>
+  
 
----
-
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/pypi/l/dataprep?style=flat-square"/></a>
-  <a href="https://sfu-db.github.io/dataprep/"><img src="https://img.shields.io/badge/dynamic/json?color=blue&label=docs&prefix=v&query=%24.info.version&url=https%3A%2F%2Fpypi.org%2Fpypi%2Fdataprep%2Fjson&style=flat-square"/></a>
-  <a href="https://pypi.org/project/dataprep/"><img src="https://img.shields.io/pypi/pyversions/dataprep?style=flat-square"/></a>
-  <!-- <a href="https://www.codacy.com/gh/sfu-db/dataprep?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sfu-db/dataprep&amp;utm_campaign=Badge_Coverage"><img src="https://app.codacy.com/project/badge/Coverage/ed658f08dcce4f088c850253475540ba"/></a> -->
-<!--   <a href="https://codecov.io/gh/sfu-db/dataprep"><img src="https://img.shields.io/codecov/c/github/sfu-db/dataprep?style=flat-square"/></a> -->
-  <!-- <a href="https://www.codacy.com/gh/sfu-db/dataprep?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sfu-db/dataprep&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/ed658f08dcce4f088c850253475540ba"/></a> -->
+  
 </p>
-
-<p align="center">
-  <a href="https://sfu-db.github.io/dataprep/">Documentation</a>
+<p align="center" dir="auto">
+  <a href="https://sfu-db.github.io/dataprep/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
   | 
-  <a href="https://github.com/sfu-db/dataprep/discussions">Forum</a>
+  </font></font><a href="https://github.com/sfu-db/dataprep/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a>
 </p>
-
-<p align="center"><b>Low code data preparation</b></p>
-
-Currently, you can use DataPrep to:
-
-- Collect data from common data sources (through [`dataprep.connector`](#connector))
-- Do your exploratory data analysis (through [`dataprep.eda`](#eda))
-- Clean and standardize data (through [`dataprep.clean`](#clean))
-- ...more modules are coming
-
-## Releases
-
-<div align="center">
+<p align="center" dir="auto"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">低代码数据准备</font></font></b></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前，您可以使用 DataPrep 来：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从常见数据源收集数据（通过</font></font><a href="#connector"><code>dataprep.connector</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行探索性数据分析（通过</font></font><a href="#eda"><code>dataprep.eda</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">清理和标准化数据（通过</font></font><a href="#clean"><code>dataprep.clean</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">...更多模块即将推出</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-releases" class="anchor" aria-hidden="true" tabindex="-1" href="#releases"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布</font></font></h2>
+<div align="center" dir="auto">
   <table>
-    <tr>
-      <th>Repo</th>
-      <th>Version</th>
-      <th>Downloads</th>
+    <tbody><tr>
+      <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购协议</font></font></th>
+      <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本</font></font></th>
+      <th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载</font></font></th>
     </tr>
     <tr>
-      <td>PyPI</td>
-      <td><a href="https://pypi.org/project/dataprep/"><img src="https://img.shields.io/pypi/v/dataprep?style=flat-square"/></a></td>
-      <td><a href="https://pepy.tech/project/dataprep"><img src="https://pepy.tech/badge/dataprep"/></a></td>
+      <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">皮伊</font></font></td>
+      <td><a href="https://pypi.org/project/dataprep/" rel="nofollow"><img src="https://camo.githubusercontent.com/cfe1d89444c31dee8f439f485d2f9aadb0b9388c443a7520501019730e2b2db4/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f64617461707265703f7374796c653d666c61742d737175617265" data-canonical-src="https://img.shields.io/pypi/v/dataprep?style=flat-square" style="max-width: 100%;"></a></td>
+      <td><a href="https://pepy.tech/project/dataprep" rel="nofollow"><img src="https://camo.githubusercontent.com/9681789c5a7b39fcd956ef76c0e3ced31efddd9cdc041562ddc3b5d090cbfd46/68747470733a2f2f706570792e746563682f62616467652f6461746170726570" data-canonical-src="https://pepy.tech/badge/dataprep" style="max-width: 100%;"></a></td>
     </tr>
     <tr> 
-      <td>conda-forge</td>
-      <td><a href="https://anaconda.org/conda-forge/dataprep"><img src="https://img.shields.io/conda/vn/conda-forge/dataprep.svg"/></a></td>
-      <td><a href="https://anaconda.org/conda-forge/dataprep"><img src="https://img.shields.io/conda/dn/conda-forge/dataprep.svg"/></a></td>
+      <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">康达锻造公司</font></font></td>
+      <td><a href="https://anaconda.org/conda-forge/dataprep" rel="nofollow"><img src="https://camo.githubusercontent.com/6ae1a9c959e405adc233077d83b853a6fd0ebb623f503c0861e8d1801e4a7ab6/68747470733a2f2f696d672e736869656c64732e696f2f636f6e64612f766e2f636f6e64612d666f7267652f64617461707265702e737667" data-canonical-src="https://img.shields.io/conda/vn/conda-forge/dataprep.svg" style="max-width: 100%;"></a></td>
+      <td><a href="https://anaconda.org/conda-forge/dataprep" rel="nofollow"><img src="https://camo.githubusercontent.com/5b3d4aa5ba374f978149547f3a14aa308472cdf85ccf656fe0f380270d672a97/68747470733a2f2f696d672e736869656c64732e696f2f636f6e64612f646e2f636f6e64612d666f7267652f64617461707265702e737667" data-canonical-src="https://img.shields.io/conda/dn/conda-forge/dataprep.svg" style="max-width: 100%;"></a></td>
     </tr>
-  </table>
+  </tbody></table>
 </div>
-
-## Installation
-
-```bash
-pip install -U dataprep
-```
-
-## EDA
-
-DataPrep.EDA is the fastest and the easiest EDA (Exploratory Data Analysis) tool in Python. It allows you to understand a Pandas/Dask DataFrame with a few lines of code in seconds.
-
-#### Create Profile Reports, Fast
-
-You can create a beautiful profile report from a Pandas/Dask DataFrame with the `create_report` function. DataPrep.EDA has the following advantages compared to other tools:
-
-- **[10X Faster](https://arxiv.org/abs/2104.00841)**: DataPrep.EDA can be 10X faster than Pandas-based profiling tools due to its highly optimized Dask-based computing module.
-- **Interactive Visualization**: DataPrep.EDA generates interactive visualizations in a report, which makes the report look more appealing to end users.
-- **Big Data Support**: DataPrep.EDA naturally supports big data stored in a Dask cluster by accepting a Dask dataframe as input.
-
-The following code demonstrates how to use DataPrep.EDA to create a profile report for the titanic dataset.
-
-```python
-from dataprep.datasets import load_dataset
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install -U dataprep</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install -U dataprep" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-eda" class="anchor" aria-hidden="true" tabindex="-1" href="#eda"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子设计自动化</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataPrep.EDA 是 Python 中最快、最简单的 EDA（探索性数据分析）工具。</font><font style="vertical-align: inherit;">它允许您在几秒钟内通过几行代码理解 Pandas/Dask DataFrame。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-create-profile-reports-fast" class="anchor" aria-hidden="true" tabindex="-1" href="#create-profile-reports-fast"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速创建配置文件报告</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用该函数从 Pandas/Dask DataFrame 创建漂亮的配置文件报告</font></font><code>create_report</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">DataPrep.EDA与其他工具相比具有以下优点：</font></font></p>
+<ul dir="auto">
+<li><strong><a href="https://arxiv.org/abs/2104.00841" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">速度快 10 倍</font></font></a></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：由于其高度优化的基于 Dask 的计算模块，DataPrep.EDA 的速度比基于 Pandas 的分析工具快 10 倍。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">交互式可视化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：DataPrep.EDA 在报告中生成交互式可视化，这使得报告对最终用户更具吸引力。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大数据支持</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：DataPrep.EDA 通过接受 Dask 数据帧作为输入，自然支持存储在 Dask 集群中的大数据。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下代码演示了如何使用 DataPrep.EDA 为 titanic 数据集创建配置文件报告。</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">dataprep</span>.<span class="pl-s1">datasets</span> <span class="pl-k">import</span> <span class="pl-s1">load_dataset</span>
+<span class="pl-k">from</span> <span class="pl-s1">dataprep</span>.<span class="pl-s1">eda</span> <span class="pl-k">import</span> <span class="pl-s1">create_report</span>
+<span class="pl-s1">df</span> <span class="pl-c1">=</span> <span class="pl-en">load_dataset</span>(<span class="pl-s">"titanic"</span>)
+<span class="pl-en">create_report</span>(<span class="pl-s1">df</span>).<span class="pl-en">show_browser</span>()</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from dataprep.datasets import load_dataset
 from dataprep.eda import create_report
-df = load_dataset("titanic")
-create_report(df).show_browser()
-```
-
-Click [here](https://docs.dataprep.ai/_downloads/1a61c6aebb3ecbe9dc9742bd6ca78ddb/titanic_dp.html) to see the generated report of the above code.
-
-Click [here](https://docs.dataprep.ai/dev/bench/index.html) to see the benchmark result.
-
-#### Try DataPrep.EDA Online: [DataPrep.EDA Demo in Colab](https://colab.research.google.com/drive/1U_-pAMcne3hK1HbMB3kuEt-093Np_7Uk?usp=sharing)
-
-#### Innovative System Design
-
-DataPrep.EDA is the **_only_** task-centric EDA system in Python. It is carefully designed to improve usability.
-
-- **Task-Centric API Design**: You can declaratively specify a wide range of EDA tasks in different granularity with a single function call. All needed visualizations will be automatically and intelligently generated for you.
-- **Auto-Insights**: DataPrep.EDA automatically detects and highlights the insights (e.g., a column has many outliers) to facilitate pattern discovery about the data.
-- **How-to Guide**: A how-to guide is provided to show the configuration of each plot function. With this feature, you can easily customize the generated visualizations.
-
-#### Learn DataPrep.EDA in 2 minutes:
-
-<a href="https://youtu.be/nSkQy3ew3EI"><img src="assets/eda_video_cover.png"/></a>
-
-Click [here](https://sfu-db.github.io/dataprep/user_guide/eda/introduction.html) to check all the supported tasks.
-
-Check [plot](https://sfu-db.github.io/dataprep/user_guide/eda/plot.html), [plot_correlation](https://sfu-db.github.io/dataprep/user_guide/eda/plot_correlation.html), [plot_missing](https://sfu-db.github.io/dataprep/user_guide/eda/plot_missing.html) and [create_report](https://sfu-db.github.io/dataprep/user_guide/eda/create_report.html) to see how each function works.
-
-## Clean
-
-DataPrep.Clean contains about **140+** functions designed for cleaning and validating data in a DataFrame. It provides
-
-- **A Convenient GUI**: incorporated into Jupyter Notebook, users can clean their own DataFrame without any coding (see the video below).
-- **A Unified API**: each function follows the syntax `clean_{type}(df, 'column name')` (see an example below).
-- **Speed**: the computations are parallelized using Dask. It can clean **50K rows per second** on a dual-core laptop (that means cleaning 1 million rows in only 20 seconds).
-- **Transparency**: a report is generated that summarizes the alterations to the data that occured during cleaning.
-
-The following video shows how to use GUI of Dataprep.Clean
-<a href="https://youtu.be/WtJaVBIVoxQ"><img src="assets/clean_video_cover.png"/></a>
-
-The following example shows how to clean and standardize a column of country names.
-
-```python
-from dataprep.clean import clean_country
+df = load_dataset(&quot;titanic&quot;)
+create_report(df).show_browser()" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击</font></font><a href="https://docs.dataprep.ai/_downloads/1a61c6aebb3ecbe9dc9742bd6ca78ddb/titanic_dp.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看上述代码生成的报告。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击</font></font><a href="https://docs.dataprep.ai/dev/bench/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看基准测试结果。</font></font></p>
+<h4 tabindex="-1" dir="auto"><a id="user-content-try-dataprepeda-online-dataprepeda-demo-in-colab" class="anchor" aria-hidden="true" tabindex="-1" href="#try-dataprepeda-online-dataprepeda-demo-in-colab"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线尝试 DataPrep.EDA：</font></font><a href="https://colab.research.google.com/drive/1U_-pAMcne3hK1HbMB3kuEt-093Np_7Uk?usp=sharing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Colab 中的 DataPrep.EDA 演示</font></font></a></h4>
+<h4 tabindex="-1" dir="auto"><a id="user-content-innovative-system-design" class="anchor" aria-hidden="true" tabindex="-1" href="#innovative-system-design"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创新的系统设计</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataPrep.EDA 是Python 中</font></font><strong><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">唯一</font></font></em></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以任务为中心的 EDA 系统。</font><font style="vertical-align: inherit;">它经过精心设计，旨在提高可用性。</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以任务为中心的 API 设计</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：您可以通过单个函数调用以声明方式指定不同粒度的各种 EDA 任务。</font><font style="vertical-align: inherit;">所有需要的可视化效果都会自动、智能地为您生成。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动洞察</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：DataPrep.EDA 自动检测并突出显示洞察（例如，列有许多异常值），以促进有关数据的模式发现。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作指南</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：提供了操作指南来显示每个绘图功能的配置。</font><font style="vertical-align: inherit;">通过此功能，您可以轻松自定义生成的可视化效果。</font></font></li>
+</ul>
+<h4 tabindex="-1" dir="auto"><a id="user-content-learn-dataprepeda-in-2-minutes" class="anchor" aria-hidden="true" tabindex="-1" href="#learn-dataprepeda-in-2-minutes"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2 分钟内了解 DataPrep.EDA：</font></font></h4>
+<p dir="auto"><a href="https://youtu.be/nSkQy3ew3EI" rel="nofollow"><img src="/sfu-db/dataprep/raw/develop/assets/eda_video_cover.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击</font></font><a href="https://sfu-db.github.io/dataprep/user_guide/eda/introduction.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看所有支持的任务。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查</font></font><a href="https://sfu-db.github.io/dataprep/user_guide/eda/plot.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">plot</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://sfu-db.github.io/dataprep/user_guide/eda/plot_correlation.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">plot_correlation</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://sfu-db.github.io/dataprep/user_guide/eda/plot_missing.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">plot_missing</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://sfu-db.github.io/dataprep/user_guide/eda/create_report.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">create_report</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解每个函数的工作原理。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-clean" class="anchor" aria-hidden="true" tabindex="-1" href="#clean"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干净的</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataPrep.Clean 包含大约</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">140 多个</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">函数，旨在清理和验证 DataFrame 中的数据。</font><font style="vertical-align: inherit;">它提供</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方便的 GUI</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：合并到 Jupyter Notebook 中，用户无需任何编码即可清理自己的 DataFrame（请参见下面的视频）。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">统一的 API</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：每个函数都遵循语法</font></font><code>clean_{type}(df, 'column name')</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（请参阅下面的示例）。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">速度</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：使用 Dask 并行计算。</font><font style="vertical-align: inherit;">它可以</font><font style="vertical-align: inherit;">在双核笔记本电脑上</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每秒清理 50K 行（这意味着只需 20 秒即可清理 100 万行）。</font></font></strong><font style="vertical-align: inherit;"></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">透明度</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：生成一份报告，总结清洁期间发生的数据更改。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下视频展示了如何使用 Dataprep.Clean 的 GUI
+</font></font><a href="https://youtu.be/WtJaVBIVoxQ" rel="nofollow"><img src="/sfu-db/dataprep/raw/develop/assets/clean_video_cover.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下示例演示如何清理和标准化国家/地区名称列。</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">dataprep</span>.<span class="pl-s1">clean</span> <span class="pl-k">import</span> <span class="pl-s1">clean_country</span>
+<span class="pl-k">import</span> <span class="pl-s1">pandas</span> <span class="pl-k">as</span> <span class="pl-s1">pd</span>
+<span class="pl-s1">df</span> <span class="pl-c1">=</span> <span class="pl-s1">pd</span>.<span class="pl-v">DataFrame</span>({<span class="pl-s">'country'</span>: [<span class="pl-s">'USA'</span>, <span class="pl-s">'country: Canada'</span>, <span class="pl-s">'233'</span>, <span class="pl-s">' tr '</span>, <span class="pl-s">'NA'</span>]})
+<span class="pl-s1">df2</span> <span class="pl-c1">=</span> <span class="pl-en">clean_country</span>(<span class="pl-s1">df</span>, <span class="pl-s">'country'</span>)
+<span class="pl-s1">df2</span>
+           <span class="pl-s1">country</span>  <span class="pl-s1">country_clean</span>
+<span class="pl-c1">0</span>              <span class="pl-v">USA</span>  <span class="pl-v">United</span> <span class="pl-v">States</span>
+<span class="pl-c1">1</span>  <span class="pl-s1">country</span>: <span class="pl-v">Canada</span>         <span class="pl-v">Canada</span>
+<span class="pl-c1">2</span>              <span class="pl-c1">233</span>        <span class="pl-v">Estonia</span>
+<span class="pl-c1">3</span>              <span class="pl-s1">tr</span>          <span class="pl-v">Turkey</span>
+<span class="pl-c1">4</span>               <span class="pl-v">NA</span>            <span class="pl-v">NaN</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from dataprep.clean import clean_country
 import pandas as pd
 df = pd.DataFrame({'country': ['USA', 'country: Canada', '233', ' tr ', 'NA']})
 df2 = clean_country(df, 'country')
@@ -122,13 +124,26 @@ df2
 1  country: Canada         Canada
 2              233        Estonia
 3              tr          Turkey
-4               NA            NaN
-```
-
-Type validation is also supported:
-
-```python
-from dataprep.clean import validate_country
+4               NA            NaN" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">还支持类型验证：</font></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">dataprep</span>.<span class="pl-s1">clean</span> <span class="pl-k">import</span> <span class="pl-s1">validate_country</span>
+<span class="pl-s1">series</span> <span class="pl-c1">=</span> <span class="pl-en">validate_country</span>(<span class="pl-s1">df</span>[<span class="pl-s">'country'</span>])
+<span class="pl-s1">series</span>
+<span class="pl-c1">0</span>     <span class="pl-c1">True</span>
+<span class="pl-c1">1</span>    <span class="pl-c1">False</span>
+<span class="pl-c1">2</span>     <span class="pl-c1">True</span>
+<span class="pl-c1">3</span>     <span class="pl-c1">True</span>
+<span class="pl-c1">4</span>    <span class="pl-c1">False</span>
+<span class="pl-v">Name</span>: <span class="pl-s1">country</span>, <span class="pl-s1">dtype</span>: <span class="pl-s1">bool</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from dataprep.clean import validate_country
 series = validate_country(df['country'])
 series
 0     True
@@ -136,130 +151,167 @@ series
 2     True
 3     True
 4    False
-Name: country, dtype: bool
-```
-
-Check [Documentation of Dataprep.Clean](https://docs.dataprep.ai/user_guide/clean/introduction.html) to see how each function works.
-
-## Connector
-
-Connector now supports loading data from both web API and databases.
-
-### Web API
-
-Connector is an intuitive, open-source API wrapper that speeds up development by standardizing calls to multiple APIs as a simple workflow.
-
-Connector provides a simple wrapper to collect structured data from different Web APIs (e.g., Twitter, Spotify), making web data collection easy and efficient, without requiring advanced programming skills.
-
-Do you want to leverage the growing number of websites that are opening their data through public APIs? Connector is for you!
-
-Let's check out the several benefits that Connector offers:
-
-- **A unified API:** You can fetch data using one or two lines of code to get data from [tens of popular websites](https://github.com/sfu-db/DataConnectorConfigs).
-- **Auto Pagination:** Do you want to invoke a Web API that could return a large result set and need to handle it through pagination? Connector automatically does the pagination for you! Just specify the desired number of returned results (argument `_count`) without getting into unnecessary detail about a specific pagination scheme.
-- **Speed:** Do you want to fetch results more quickly by making concurrent requests to Web APIs? Through the `_concurrency` argument, Connector simplifies concurrency, issuing API requests in parallel while respecting the API's rate limit policy.
-
-#### How to fetch all publications of Andrew Y. Ng?
-
-```python
-from dataprep.connector import connect
-conn_dblp = connect("dblp", _concurrency = 5)
-df = await conn_dblp.query("publication", author = "Andrew Y. Ng", _count = 2000)
-```
-
-Here, you can find detailed [Examples.](https://github.com/sfu-db/dataprep/tree/develop/examples)
-
-Connector is designed to be easy to extend. If you want to connect with your own web API, you just have to write a simple [configuration file](https://github.com/sfu-db/DataConnectorConfigs/blob/develop/CONTRIBUTING.md#add-configuration-files) to support it. This configuration file describes the API's main attributes like the URL, query parameters, authorization method, pagination properties, etc.
-
-### Database
-
-Connector now has adopted [connectorx](https://github.com/sfu-db/connector-x) in order to enable loading data from databases (Postgres, Mysql, SQLServer, etc.) into Python dataframes (pandas, dask, modin, arrow, polars) in the fastest and most memory efficient way. [[Benchmark]](https://github.com/sfu-db/connector-x/blob/main/Benchmark.md#benchmark-result-on-aws-r54xlarge)
-
-What you need to do is just install `connectorx` (`pip install -U connectorx`) and run one line of code:
-
-```python
-from dataprep.connector import read_sql
-read_sql("postgresql://username:password@server:port/database", "SELECT * FROM lineitem")
-```
-
-Check out [here](https://github.com/sfu-db/connector-x#supported-sources--destinations) for supported databases and dataframes and more examples usages.
-
-
-## Lineage
-A Column Level Lineage Graph for SQL. This tool is intended to help you by creating an interactive graph on a webpage to explore the column level lineage among them.
-
-### The lineage module offers:
-A general introduction of the project can be found in this [blog post](https://medium.com/@shz1/lineagex-the-python-library-for-your-lineage-needs-5e51b77a0032).
-- **Automatic dependency creation**: When there are dependency among the SQL files, and those tables are not yet in the database, the lineage module will automatically tries to find the dependency table and creates it.
-- **Clean and simple but very interactive user interface**: The user interface is very simple to use with minimal clutters on the page while showing all of the necessary information.
-- **Variety of SQL statements**: The lineage module supports a variety of SQL statements, aside from the typical `SELECT` statement, it also supports `CREATE TABLE/VIEW [IF NOT EXISTS]` statement as well as the `INSERT` and `DELETE` statement.
-- **[dbt](https://docs.getdbt.com/) support**: The lineage module is also implemented in the [dbt-LineageX](https://github.com/sfu-db/dbt-lineagex), it is added into a dbt project and by using the dbt library [fal](https://github.com/fal-ai/fal), it is able to reuse the Python core and create the similar output from the dbt project.
-
-### Uses and Demo
-The interactive graph looks like this: 
-<img src="https://raw.githubusercontent.com/sfu-db/lineagex/main/docs/example.gif"/>
-Here is a [live demo](https://zshandy.github.io/lineagex-demo/) with the [mimic-iv concepts_postgres](https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iv/concepts_postgres) files([navigation instructions](https://sfu-db.github.io/lineagex/output.html#how-to-navigate-the-webpage)) and that is created with one line of code:
-```python
-from dataprep.lineage import lineagex
-lineagex(sql=path/to/sql, target_schema="schema1", conn_string="postgresql://username:password@server:port/database", search_path_schema="schema1, public")
-```
-Check out more detailed usage and examples [here](https://sfu-db.github.io/lineagex/intro.html). 
-
-## Documentation
-
-The following documentation can give you an impression of what DataPrep can do:
-
-- [Connector](https://docs.dataprep.ai/user_guide/connector/introduction.html)
-- [EDA](https://docs.dataprep.ai/user_guide/eda/introduction.html)
-- [Clean](https://docs.dataprep.ai/user_guide/clean/introduction.html)
-- [Lineage](https://sfu-db.github.io/lineagex/intro.html)
-- 
-## Contribute
-
-There are many ways to contribute to DataPrep.
-
-- Submit bugs and help us verify fixes as they are checked in.
-- Review the source code changes.
-- Engage with other DataPrep users and developers on StackOverflow.
-- Ask questions & propose new ideas in our [Forum].
-- [![Twitter]](https://twitter.com/dataprepai)
-- Contribute bug fixes.
-- Providing use cases and writing down your user experience.
-
-Please take a look at our [wiki] for development documentations!
-
-[build status]: https://img.shields.io/circleci/build/github/sfu-db/dataprep/master?style=flat-square&token=f68e38757f5c98771f46d1c7e700f285a0b9784d
-[forum]: https://github.com/sfu-db/dataprep/discussions
-[wiki]: https://github.com/sfu-db/dataprep/wiki
-[examples]: https://github.com/sfu-db/dataprep/tree/master/examples
-[twitter]: https://img.shields.io/twitter/follow/dataprepai?style=social
-
-## Acknowledgement
-
-Some functionalities of DataPrep are inspired by the following packages.
-
-- [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)
-
-  Inspired the report functionality and insights provided in `dataprep.eda`.
-
-- [missingno](https://github.com/ResidentMario/missingno)
-
-  Inspired the missing value analysis in `dataprep.eda`.
-
-## Citing DataPrep
-
-If you use DataPrep, please consider citing the following paper:
-
-Jinglin Peng, Weiyuan Wu, Brandon Lockhart, Song Bian, Jing Nathan Yan, Linghao Xu, Zhixuan Chi, Jeffrey M. Rzeszotarski, and Jiannan Wang. [DataPrep.EDA: Task-Centric Exploratory Data Analysis for Statistical
-Modeling in Python.](https://arxiv.org/abs/2104.00841) _SIGMOD 2021_.
-
-BibTeX entry:
-
-```bibtex
-@inproceedings{dataprepeda2021,
+Name: country, dtype: bool" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查</font></font><a href="https://docs.dataprep.ai/user_guide/clean/introduction.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dataprep.Clean 的文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解每个函数的工作原理。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-connector" class="anchor" aria-hidden="true" tabindex="-1" href="#connector"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接器</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接器现在支持从 Web API 和数据库加载数据。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-web-api" class="anchor" aria-hidden="true" tabindex="-1" href="#web-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络应用程序接口</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Connector 是一个直观的开源 API 包装器，它通过将对多个 API 的调用标准化为简单的工作流程来加快开发速度。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Connector 提供了一个简单的包装器来从不同的 Web API（例如 Twitter、Spotify）收集结构化数据，使 Web 数据收集变得简单高效，无需高级编程技能。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您想利用越来越多的通过公共 API 开放数据的网站吗？</font><font style="vertical-align: inherit;">连接器适合您！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让我们看看 Connector 提供的几个好处：</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">统一的API：</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需一两行代码即可获取</font></font><a href="https://github.com/sfu-db/DataConnectorConfigs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数十个热门网站的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据。</font></font></li>
+<li><strong>Auto Pagination:</strong> Do you want to invoke a Web API that could return a large result set and need to handle it through pagination? Connector automatically does the pagination for you! Just specify the desired number of returned results (argument <code>_count</code>) without getting into unnecessary detail about a specific pagination scheme.</li>
+<li><strong>Speed:</strong> Do you want to fetch results more quickly by making concurrent requests to Web APIs? Through the <code>_concurrency</code> argument, Connector simplifies concurrency, issuing API requests in parallel while respecting the API's rate limit policy.</li>
+</ul>
+<h4 tabindex="-1" dir="auto"><a id="user-content-how-to-fetch-all-publications-of-andrew-y-ng" class="anchor" aria-hidden="true" tabindex="-1" href="#how-to-fetch-all-publications-of-andrew-y-ng"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>How to fetch all publications of Andrew Y. Ng?</h4>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">dataprep</span>.<span class="pl-s1">connector</span> <span class="pl-k">import</span> <span class="pl-s1">connect</span>
+<span class="pl-s1">conn_dblp</span> <span class="pl-c1">=</span> <span class="pl-en">connect</span>(<span class="pl-s">"dblp"</span>, <span class="pl-s1">_concurrency</span> <span class="pl-c1">=</span> <span class="pl-c1">5</span>)
+<span class="pl-s1">df</span> <span class="pl-c1">=</span> <span class="pl-k">await</span> <span class="pl-s1">conn_dblp</span>.<span class="pl-en">query</span>(<span class="pl-s">"publication"</span>, <span class="pl-s1">author</span> <span class="pl-c1">=</span> <span class="pl-s">"Andrew Y. Ng"</span>, <span class="pl-s1">_count</span> <span class="pl-c1">=</span> <span class="pl-c1">2000</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from dataprep.connector import connect
+conn_dblp = connect(&quot;dblp&quot;, _concurrency = 5)
+df = await conn_dblp.query(&quot;publication&quot;, author = &quot;Andrew Y. Ng&quot;, _count = 2000)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto">Here, you can find detailed <a href="https://github.com/sfu-db/dataprep/tree/develop/examples">Examples.</a></p>
+<p dir="auto">Connector is designed to be easy to extend. If you want to connect with your own web API, you just have to write a simple <a href="https://github.com/sfu-db/DataConnectorConfigs/blob/develop/CONTRIBUTING.md#add-configuration-files">configuration file</a> to support it. This configuration file describes the API's main attributes like the URL, query parameters, authorization method, pagination properties, etc.</p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-database" class="anchor" aria-hidden="true" tabindex="-1" href="#database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Database</h3>
+<p dir="auto">Connector now has adopted <a href="https://github.com/sfu-db/connector-x">connectorx</a> in order to enable loading data from databases (Postgres, Mysql, SQLServer, etc.) into Python dataframes (pandas, dask, modin, arrow, polars) in the fastest and most memory efficient way. <a href="https://github.com/sfu-db/connector-x/blob/main/Benchmark.md#benchmark-result-on-aws-r54xlarge">[Benchmark]</a></p>
+<p dir="auto">What you need to do is just install <code>connectorx</code> (<code>pip install -U connectorx</code>) and run one line of code:</p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">dataprep</span>.<span class="pl-s1">connector</span> <span class="pl-k">import</span> <span class="pl-s1">read_sql</span>
+<span class="pl-en">read_sql</span>(<span class="pl-s">"postgresql://username:password@server:port/database"</span>, <span class="pl-s">"SELECT * FROM lineitem"</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from dataprep.connector import read_sql
+read_sql(&quot;postgresql://username:password@server:port/database&quot;, &quot;SELECT * FROM lineitem&quot;)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto">Check out <a href="https://github.com/sfu-db/connector-x#supported-sources--destinations">here</a> for supported databases and dataframes and more examples usages.</p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-lineage" class="anchor" aria-hidden="true" tabindex="-1" href="#lineage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Lineage</h2>
+<p dir="auto">A Column Level Lineage Graph for SQL. This tool is intended to help you by creating an interactive graph on a webpage to explore the column level lineage among them.</p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-the-lineage-module-offers" class="anchor" aria-hidden="true" tabindex="-1" href="#the-lineage-module-offers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>The lineage module offers:</h3>
+<p dir="auto">A general introduction of the project can be found in this <a href="https://medium.com/@shz1/lineagex-the-python-library-for-your-lineage-needs-5e51b77a0032" rel="nofollow">blog post</a>.</p>
+<ul dir="auto">
+<li><strong>Automatic dependency creation</strong>: When there are dependency among the SQL files, and those tables are not yet in the database, the lineage module will automatically tries to find the dependency table and creates it.</li>
+<li><strong>Clean and simple but very interactive user interface</strong>: The user interface is very simple to use with minimal clutters on the page while showing all of the necessary information.</li>
+<li><strong>Variety of SQL statements</strong>: The lineage module supports a variety of SQL statements, aside from the typical <code>SELECT</code> statement, it also supports <code>CREATE TABLE/VIEW [IF NOT EXISTS]</code> statement as well as the <code>INSERT</code> and <code>DELETE</code> statement.</li>
+<li><strong><a href="https://docs.getdbt.com/" rel="nofollow">dbt</a> support</strong>: The lineage module is also implemented in the <a href="https://github.com/sfu-db/dbt-lineagex">dbt-LineageX</a>, it is added into a dbt project and by using the dbt library <a href="https://github.com/fal-ai/fal">fal</a>, it is able to reuse the Python core and create the similar output from the dbt project.</li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-uses-and-demo" class="anchor" aria-hidden="true" tabindex="-1" href="#uses-and-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Uses and Demo</h3>
+<p dir="auto">The interactive graph looks like this:
+<animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/sfu-db/lineagex/main/docs/example.gif" data-target="animated-image.originalLink"><img src="https://raw.githubusercontent.com/sfu-db/lineagex/main/docs/example.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://raw.githubusercontent.com/sfu-db/lineagex/main/docs/example.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="example.gif" class="AnimatedImagePlayer-animatedImage" src="https://raw.githubusercontent.com/sfu-db/lineagex/main/docs/example.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="814" height="442"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play example.gif" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play example.gif">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="Open example.gif in new window" class="AnimatedImagePlayer-button" href="https://raw.githubusercontent.com/sfu-db/lineagex/main/docs/example.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+这是一个</font><font style="vertical-align: inherit;">带有</font><a href="https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iv/concepts_postgres"><font style="vertical-align: inherit;">imit-ivconcepts_postgres</font></a><font style="vertical-align: inherit;">文件（</font><a href="https://sfu-db.github.io/lineagex/output.html#how-to-navigate-the-webpage" rel="nofollow"><font style="vertical-align: inherit;">导航指令）的</font></a></font><a href="https://zshandy.github.io/lineagex-demo/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现场演示</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它是用一行代码创建的：</font></font><a href="https://github.com/MIT-LCP/mimic-code/tree/main/mimic-iv/concepts_postgres"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="https://sfu-db.github.io/lineagex/output.html#how-to-navigate-the-webpage" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">from</span> <span class="pl-s1">dataprep</span>.<span class="pl-s1">lineage</span> <span class="pl-k">import</span> <span class="pl-s1">lineagex</span>
+<span class="pl-en">lineagex</span>(<span class="pl-s1">sql</span><span class="pl-c1">=</span><span class="pl-s1">path</span><span class="pl-c1">/</span><span class="pl-s1">to</span><span class="pl-c1">/</span><span class="pl-s1">sql</span>, <span class="pl-s1">target_schema</span><span class="pl-c1">=</span><span class="pl-s">"schema1"</span>, <span class="pl-s1">conn_string</span><span class="pl-c1">=</span><span class="pl-s">"postgresql://username:password@server:port/database"</span>, <span class="pl-s1">search_path_schema</span><span class="pl-c1">=</span><span class="pl-s">"schema1, public"</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from dataprep.lineage import lineagex
+lineagex(sql=path/to/sql, target_schema=&quot;schema1&quot;, conn_string=&quot;postgresql://username:password@server:port/database&quot;, search_path_schema=&quot;schema1, public&quot;)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://sfu-db.github.io/lineagex/intro.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看更详细的用法和示例</font><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下文档可以让您了解 DataPrep 的功能：</font></font></p>
+<ul dir="auto">
+<li><a href="https://docs.dataprep.ai/user_guide/connector/introduction.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">连接器</font></font></a></li>
+<li><a href="https://docs.dataprep.ai/user_guide/eda/introduction.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子设计自动化</font></font></a></li>
+<li><a href="https://docs.dataprep.ai/user_guide/clean/introduction.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">干净的</font></font></a></li>
+<li><a href="https://sfu-db.github.io/lineagex/intro.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">血统</font></font></a></li>
+<li></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contribute" class="anchor" aria-hidden="true" tabindex="-1" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有很多方法可以为 DataPrep 做出贡献。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提交错误并帮助我们在签入修复后验证修复。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看源代码更改。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 StackOverflow 上的其他 DataPrep 用户和开发人员互动。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://github.com/sfu-db/dataprep/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我们的论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中提出问题并提出新想法</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://twitter.com/dataprepai" rel="nofollow"><img src="https://camo.githubusercontent.com/c8dbfc6f6a13ddf3bc021685f42ba29e00a5dfee6ffc22f0b46fe920f70299b0/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f646174617072657061693f7374796c653d736f6369616c" alt="推特" data-canonical-src="https://img.shields.io/twitter/follow/dataprepai?style=social" style="max-width: 100%;"></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献错误修复。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供用例并写下您的用户体验。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请查看我们的</font></font><a href="https://github.com/sfu-db/dataprep/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来获取开发文档！</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-acknowledgement" class="anchor" aria-hidden="true" tabindex="-1" href="#acknowledgement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">致谢</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataPrep 的一些功能受到以下软件包的启发。</font></font></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><a href="https://github.com/pandas-profiling/pandas-profiling"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">熊猫分析</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启发了 中提供的报告功能和见解</font></font><code>dataprep.eda</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</li>
+<li>
+<p dir="auto"><a href="https://github.com/ResidentMario/missingno"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">失踪没有</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启发了 中的缺失值分析</font></font><code>dataprep.eda</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-citing-dataprep" class="anchor" aria-hidden="true" tabindex="-1" href="#citing-dataprep"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用数据准备</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您使用 DataPrep，请考虑引用以下论文：</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jinglin Peng、Weiyuan Wu、Brandon Lockhart、Song Bian、Jing Nathan Yan、Linghao Xu、Zhixuan Chi、Jeffrey M. Rzeszotarski 和Jiannan Wang。</font></font><a href="https://arxiv.org/abs/2104.00841" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DataPrep.EDA：Python 中统计建模的以任务为中心的探索性数据分析。</font></font></a> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SIGMOD 2021</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BibTeX 条目：</font></font></p>
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@inproceedings</span>{<span class="pl-en">dataprepeda2021</span>,
+  <span class="pl-s">author</span>    = <span class="pl-s"><span class="pl-pds">{</span>Jinglin Peng and Weiyuan Wu and Brandon Lockhart and Song Bian and Jing Nathan Yan and Linghao Xu and Zhixuan Chi and Jeffrey M. Rzeszotarski and Jiannan Wang<span class="pl-pds">}</span></span>,
+  <span class="pl-s">title</span>     = <span class="pl-s"><span class="pl-pds">{</span>DataPrep.EDA: Task-Centric Exploratory Data Analysis for Statistical Modeling in Python<span class="pl-pds">}</span></span>,
+  <span class="pl-s">booktitle</span> = <span class="pl-s"><span class="pl-pds">{</span>Proceedings of the 2021 International Conference on Management of Data (SIGMOD '21), June 20--25, 2021, Virtual Event, China<span class="pl-pds">}</span></span>,
+  <span class="pl-s">year</span>      = <span class="pl-s"><span class="pl-pds">{</span>2021<span class="pl-pds">}</span></span>
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@inproceedings{dataprepeda2021,
   author    = {Jinglin Peng and Weiyuan Wu and Brandon Lockhart and Song Bian and Jing Nathan Yan and Linghao Xu and Zhixuan Chi and Jeffrey M. Rzeszotarski and Jiannan Wang},
   title     = {DataPrep.EDA: Task-Centric Exploratory Data Analysis for Statistical Modeling in Python},
   booktitle = {Proceedings of the 2021 International Conference on Management of Data (SIGMOD '21), June 20--25, 2021, Virtual Event, China},
   year      = {2021}
-}
-```
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</article></div>
